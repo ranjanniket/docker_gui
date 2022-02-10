@@ -7,5 +7,5 @@ RUN pip3 install matplotlib
 RUN yum install firefox -y
 RUN yum install gedit -y
 RUN yum install net-tools -y
-RUN yum install PackageKit-gtk3-module libcanberra-gtk2 -y
+RUN yum install PackageKit-gtk3-module libcanberra-gtk2 -y #toolkit for creating gui
 CMD ["/bin/bash"]
